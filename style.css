@@ -379,6 +379,12 @@ footer {
     .display-card p {
         font-size: 0.7rem;
     }
+
+    .country-name {
+        text-overflow: hidden;
+        gap:2rem;
+        
+     }
 }
 
 @media(min-width:786px) {
