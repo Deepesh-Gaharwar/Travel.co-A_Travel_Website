@@ -323,9 +323,9 @@ footer {
     cursor: pointer;
   }
   
-  footer p {
+/*   footer p {
     font-style: italic;
-  }
+  } */
 
   .copyright{
     display:flex;
