@@ -175,7 +175,7 @@ main .card {
     text-align: left;
     display: flex;
     align-items: center;
-    gap: 5rem;
+    gap: 0.5rem;
     color: var(--text-light);
     cursor: pointer;
 }
@@ -258,13 +258,14 @@ main .card {
 .display-card i {
     font-size: 2rem;
     color: var(--primary-color);
-    color: var(--text-dark);
+    
 }
 
 .display-card h4 {
     font-size: 1rem;
     font-weight: 500;
     padding: 0 1rem;
+    color:var(--text-dark);
 }
 
 .display-card p {
@@ -379,20 +380,8 @@ footer {
     .display-card p {
         font-size: 0.7rem;
     }
-
-    .country-name {
-        text-overflow: hidden;
-        gap:0.45rem;
-        display:flex;
-        text-align:left;
-        align-items:center;
-        color:var(--text-light);
-        cursor:pointer;
-        padding:0.5rem;
-       
-        
-     }
 }
+
 
 @media(min-width:786px) {
     .banner-container .card {
